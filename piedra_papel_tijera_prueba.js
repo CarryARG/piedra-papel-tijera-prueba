@@ -16,11 +16,11 @@ if(player == 0) {
 
 // tercero, elegir el ataque de la IA (debe ser ALEATORIO)
 let enemy = Math.round(Math.random() * 2);
-if(enemy == 1) {
+if(enemy == 0) {
 	alert('La maquina eligió PIEDRA');
-} else if(enemy == 2) {
+} else if(enemy == 1) {
 	alert('La maquina eligió PAPEL');
-} else if(enemy == 3) {
+} else if(enemy == 2) {
 	alert('La maquina eligió TIJERA');
 }
 
